@@ -1,3 +1,4 @@
+// alert("Welcome to Javascript...");
 // document.getElementById("element").style.color="grey";
 // document.getElementById("element").style.color="grey";
 // document.getElementById("element").style.color="grey";
@@ -83,22 +84,94 @@
 // console.log(va);
 // console.log(typeof va);
 
+// let v=234;
+// let w=345;
+// let g=v+w;
+// g=v-23;
+// g=Math.sqrt(15);
+// g=Math.pow(15,2);
+// g=Math.ceil(234.3);
+// g=Math.floor(234.6);
+// g=Math.round(234.5);
+// g=Math.abs(-10);
+// g=Math.random()*20;
+// console.log(v);
 
-let v=234;
-let w=345;
-let g=v+w;
-g=v-23;
-g=Math.sqrt(15);
-g=Math.pow(15,2);
-g=Math.ceil(234.3);
-g=Math.floor(234.6);
-g=Math.round(234.5);
-g=Math.abs(-10);
-g=Math.random()*30;
-
-
-
-
+// let fname="Fridoon";
 
 
-console.log(v);
+// console.log(fname[0]);
+// console.log(typeof fname);
+
+// let numbers=[234,435,3,3,54,6,,4,3,90];
+// numbers[6]=455;
+// console.log(numbers);
+// numbers.push(3000);
+// console.log(numbers);
+// numbers.pop();
+
+// console.log(numbers);
+// // numbers.unshift(10500);
+
+// let n=numbers.indexOf(3);
+
+// n=numbers[numbers.length-1]; 
+// console.log(n);
+
+// console.log(numbers);
+
+// let note="This is huge note for whom read."
+
+// const html=`
+// <ul>
+// <li>Home</li>
+// <li>About</li>
+// <li>Contant</li>
+// <li>${note}</li>
+// <li>${10/3}</li>
+// </ul>`;
+
+// document.body.innerHTML=html;
+
+// const programmer={
+//     name: "Fridoon",
+//     fathername:"Najmullah",
+//     address:{
+//         city:"IST",
+//         area:"Zeytinburnu",
+//     },
+//     work: function(){
+//         console.log("Call this method by java script");
+//         }
+// }
+
+// console.log(programmer.work());
+// console.log(programmer);
+
+
+// console.log(2==2);
+// console.log("java"=="javascript");
+// console.log(2=="2"); //automaticaly converted to string
+// console.log(2==="2"); //make the data type and value
+
+// const users=[
+//     {name:"fridoon",age:30},
+//     {name:"obj",age:90}
+// ];
+
+// console.log(users);
+// const unames=users.map(function(users){
+// return users.name;
+// });
+
+// console.log(unames);
+
+
+// const user={
+// name:"ahmad",
+// age:30
+// }
+
+// for(let key in user){
+// console.log(key,user[key]);
+// }
